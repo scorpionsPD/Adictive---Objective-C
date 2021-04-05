@@ -1,0 +1,11 @@
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ADTickerLabel" "${PODS_ROOT}/Headers/Public/Google-Mobile-Ads-SDK" "${PODS_ROOT}/Headers/Public/HexColors" "${PODS_ROOT}/Headers/Public/REMenu" "${PODS_ROOT}/Headers/Public/SFCountdownView" "${PODS_ROOT}/Headers/Public/TSMessages" "${PODS_ROOT}/Headers/Public/URBSegmentedControl"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ADTickerLabel" "${PODS_CONFIGURATION_BUILD_DIR}/HexColors" "${PODS_CONFIGURATION_BUILD_DIR}/REMenu" "${PODS_CONFIGURATION_BUILD_DIR}/SFCountdownView" "${PODS_CONFIGURATION_BUILD_DIR}/TSMessages" "${PODS_CONFIGURATION_BUILD_DIR}/URBSegmentedControl" "${PODS_ROOT}/Google-Mobile-Ads-SDK/GoogleMobileAdsSdkiOS-6.12.2"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"ADTickerLabel" -l"GoogleAdMobAds" -l"HexColors" -l"REMenu" -l"SFCountdownView" -l"TSMessages" -l"URBSegmentedControl" -framework "AVFoundation" -framework "AudioToolbox" -framework "CoreGraphics" -framework "CoreTelephony" -framework "EventKit" -framework "EventKitUI" -framework "MessageUI" -framework "QuartzCore" -framework "StoreKit" -framework "SystemConfiguration" -framework "UIKit" -weak_framework "AdSupport"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

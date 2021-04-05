@@ -1,0 +1,40 @@
+PODS:
+  - ADTickerLabel (0.66)
+  - Google-Mobile-Ads-SDK (6.12.2)
+  - HexColors (2.2.1)
+  - REMenu (1.10)
+  - SFCountdownView (0.0.1)
+  - TSMessages (0.9.11):
+    - HexColors (~> 2.2.0)
+  - URBSegmentedControl (1.0.0)
+
+DEPENDENCIES:
+  - ADTickerLabel
+  - Google-Mobile-Ads-SDK (~> 6.10)
+  - REMenu (~> 1.10)
+  - SFCountdownView
+  - TSMessages
+  - URBSegmentedControl
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ADTickerLabel
+    - Google-Mobile-Ads-SDK
+    - HexColors
+    - REMenu
+    - SFCountdownView
+    - TSMessages
+    - URBSegmentedControl
+
+SPEC CHECKSUMS:
+  ADTickerLabel: 65e57ab6ca63f30cd4aefdbc9dd658d522eadb70
+  Google-Mobile-Ads-SDK: 40217793219e3466f24cb884d1d44023f37a20ee
+  HexColors: abfd172e329dab59888614ccba6f216cec59289d
+  REMenu: 30dad195930adf6c5eeb8041e3257aa60bf9fa49
+  SFCountdownView: 0ad5af1fd7d35a413eeee2671bda0f7e4b8941d7
+  TSMessages: cda5e3a623bcf1912b1c436eb754b07651289b74
+  URBSegmentedControl: 56af23149bdf56624ab369c45553ac2eb47c0fa0
+
+PODFILE CHECKSUM: 4dab35b83e9d89dab8b580e7367dd84997cad9a3
+
+COCOAPODS: 1.10.1
